@@ -12,11 +12,11 @@
     4. Content-length
     5. Connection: close.
 
-![image](https://user-images.githubusercontent.com/51966929/146605657-2e6f772a-484e-48e7-ad02-fe4606e2039a.png)
+![image](https://user-images.githubusercontent.com/51966929/146605859-f277b93a-b2fe-48c7-b5ca-3b2044dd5412.png)
 
 2. Создайте файл настроек вашего веб-сервера, в котором можно задать прослушиваемый порт, рабочую директорию, максимальный объем запроса в байтах. Можете добавить собственные настройки по желанию.
 
-![image](https://user-images.githubusercontent.com/70951761/145886243-ab5c9597-bc36-4a1d-aba2-9b677d9740bf.png)
+![image](https://user-images.githubusercontent.com/51966929/146605657-2e6f772a-484e-48e7-ad02-fe4606e2039a.png)
 
 3. Если файл не найден, сервер передает в сокет специальный код ошибки - 404.
 
