@@ -4,8 +4,6 @@
 
 Освоить основные навыки обращения c Web из программы на Python, средства парсинга веб-страниц, соответствующие библиотеки.
 
-![image](https://user-images.githubusercontent.com/70951761/145885992-5dbf4d0b-aa38-408e-a988-d173709afcc8.png)
-
 
 1. При ответе вашего сервера посылайте некоторые основные заголовки:
     1. Date
@@ -14,7 +12,7 @@
     4. Content-length
     5. Connection: close.
 
-![image](https://user-images.githubusercontent.com/70951761/145886183-2c33a5dc-2a10-47a6-89b7-95cae4053d53.png)
+![image](https://user-images.githubusercontent.com/51966929/146605657-2e6f772a-484e-48e7-ad02-fe4606e2039a.png)
 
 2. Создайте файл настроек вашего веб-сервера, в котором можно задать прослушиваемый порт, рабочую директорию, максимальный объем запроса в байтах. Можете добавить собственные настройки по желанию.
 
@@ -22,27 +20,29 @@
 
 3. Если файл не найден, сервер передает в сокет специальный код ошибки - 404.
 
-![image](https://user-images.githubusercontent.com/70951761/145887921-a670d619-c7f4-4560-857b-1ebd06994bf2.png)
+![image](https://user-images.githubusercontent.com/51966929/146605682-095c8764-9a92-4186-9a02-5d248cc0568c.png)
 
 4. Сервер должен работать в многопоточном режиме.
 
-![image](https://user-images.githubusercontent.com/70951761/145887960-0cb70d2c-c2f7-48ee-972e-914935f5610a.png)
+![image](https://user-images.githubusercontent.com/51966929/146605697-53544dba-7c42-4d03-97c1-c3bea97c3602.png)
 
 5. Сервер должен вести логи в следующем формате: Дата запроса. IP-адрес клиента, имя запрошенного файла, код ошибки.
 
-![image](https://user-images.githubusercontent.com/70951761/145889045-7d0463c1-d55b-407e-a136-87869ef16e77.png)
+![image](https://user-images.githubusercontent.com/51966929/146605711-de10f2fd-70c7-43e4-95ea-9ec756c41e81.png)
 
 6. Добавьте возможность запрашивать только определенные типы файлов (.html, .css, .js и так далее). При запросе неразрешенного типа, верните ошибку 403.
 
-![image](https://user-images.githubusercontent.com/70951761/145889692-1e1f3a94-8a3b-4deb-9d6d-3e5638c47071.png)
+![image](https://user-images.githubusercontent.com/51966929/146605727-0d3dfa12-e4f1-454c-8263-18ddbc3d2a0f.png)
 
 7. Реализуйте поддержку постоянного соединения с несколькими запросами.
 
-<img width="288" alt="Снимок экрана 2021-12-14 в 00 14 54" src="https://user-images.githubusercontent.com/70951761/145890079-d161b468-c034-4680-99d4-a055846219e4.png">
+![image](https://user-images.githubusercontent.com/51966929/146605736-e8e5bbf7-9003-4a09-a178-a04998e10763.png)
+
+(keep-alive)
 
 8. Реализуйте поддержку бинарных типов данных, в частночти, картинок.
 
-![image](https://user-images.githubusercontent.com/70951761/145890146-ea145807-50ab-4b77-b191-7e943d19fad6.png)
+![image](https://user-images.githubusercontent.com/51966929/146605765-d7cb39fa-9206-4ff3-b7a0-d706e02dd617.png)
 
 
 <!-- Docs to Markdown version 1.0β17 -->
